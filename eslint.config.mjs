@@ -26,7 +26,8 @@ export default [
       ...reactHooks.configs.recommended.rules,
       ...next.configs.recommended.rules,
       ...next.configs['core-web-vitals'].rules,
-      'react/react-in-jsx-scope': 'off'
+      'react/react-in-jsx-scope': 'off',
+      '@typescript-eslint/no-require-imports': 'off'
     }
   }
 ]

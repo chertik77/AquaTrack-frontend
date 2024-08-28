@@ -27,6 +27,7 @@ export default [
       ...next.configs.recommended.rules,
       ...next.configs['core-web-vitals'].rules,
       'react/react-in-jsx-scope': 'off',
+      'react/display-name': 'off',
       '@typescript-eslint/no-require-imports': 'off'
     }
   }

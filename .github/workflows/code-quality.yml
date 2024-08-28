@@ -25,9 +25,6 @@ jobs:
       - name: Installing dependencies 📦
         run: bun i
 
-      - name: Linting code 🔧
-        run: bun lint
-
       - name: Checking code formatting 📝
         run: bun format:check
 

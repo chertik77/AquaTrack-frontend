@@ -15,14 +15,6 @@ export default {
       tablet: '768px',
       desktop: '1440px'
     },
-    colors: {
-      black: '#2F2F2F',
-      gray: '#323F47',
-      brand: '#9BE1A0',
-      error: '#EF5050',
-      'brand-hover': '#87D28D',
-      'gray-secondary': '#F0EFF4'
-    },
     fontSize: {
       extrasm: [
         '8px',
@@ -63,6 +55,17 @@ export default {
         '80px',
         { lineHeight: '76px', fontWeight: 700, letterSpacing: '-0.8px' }
       ]
+    },
+    extend: {
+      spacing: { lg: '18px', '2xl': '46px' },
+      colors: {
+        black: '#2F2F2F',
+        gray: '#323F47',
+        brand: '#9BE1A0',
+        error: '#EF5050',
+        'brand-hover': '#87D28D',
+        'gray-secondary': '#F0EFF4'
+      }
     }
   },
   plugins: [
